@@ -1,6 +1,6 @@
 
 % change to matlab dir
-cd ~/Documents/MATLAB
+cd ~/matlab
 fileList = dir;
 
 for i=1:length(fileList)

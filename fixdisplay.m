@@ -9,7 +9,7 @@ end
 
 % save cwd
 cwd = pwd;
-cd ~/Documents/MATLAB/
+cd ~/matlab
 fid = fopen('cwd.txt','wt');
 fprintf(fid, cwd);
 fclose(fid);
