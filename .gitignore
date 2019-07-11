@@ -1,3 +1,7 @@
 backups/
 addons/
 SupportPackages/
+#*
+*#
+*~
+*.mat
