@@ -10,7 +10,8 @@ U = sym('U',[4,4]);
 L = [-F^-1*K, F^-1; G-K'*F^-1*K, K'*F^-1];
 J = [zeros(2),eye(2);-eye(2),zeros(2)];
 simplify(J*L*J-L')
-pretty(simplify(trace(U^-1*L*U)))
+T = trace(U^-1*L*U);
+pretty(simplify(T))
 
 
 %%
